@@ -1,8 +1,7 @@
-# Aufgabe 2 Blatt 1
 # Gruppe 3
-# Eya Rouissi(1913192)
-# Sisam Khanal (2312802) 
-# Vladimir Suschevici(1732301)
+# Sisam Khanal
+# Eya Rouissi
+# Vladimir Suschevici
 
 import math as m
 

@@ -1,7 +1,7 @@
 # Gruppe 3
-# Eya Rouissi(1913192)
-# Sisam Khanal (2312802)
-# Vladimir Suschevici(1732301)
+# Sisam Khanal
+# Eya Rouissi
+# Vladimir Suschevici
 
 import numpy as np
 import math
@@ -24,14 +24,14 @@ def cholesky(mat):
 
     for i in range(1,m):
         for k in range(1,n):
-            
+
          L[k][k] = math.sqrt(mat[k][k] - L[k][1:k-1]*L[k][1:k-1])                                   #Berechnung der Diagonale von L
 
          L[i][k] = 1.0/L[k][k] * math.sqrt(mat[i][k] - np.dot(L[i][1:k-1],L[i][1:k-1].transpose())) #Berechnung der jeweiligen Spalte unterhalb des Diagonalwertes
 
     if np.dot(L,np.transpose(L)) != mat:        #Prüfung, ob Cholesky-Zerlegung eindeutig
        return False
-    
+
     return print(np.matrix(L))
 
 # A = np.array([[3.0, 1.0, 1.0],

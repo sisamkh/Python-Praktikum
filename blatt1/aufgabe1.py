@@ -1,8 +1,7 @@
-# Aufgabe 1 Blatt 1
 # Gruppe 3
-# Eya Rouissi(1913192)
-# Sisam Khanal (2312802)
-# Vladimir Suschevici(1732301)
+# Sisam Khanal
+# Eya Rouissi
+# Vladimir Suschevici
 
 
 def maschinengenaueigkeit(n):
@@ -16,4 +15,3 @@ def maschinengenaueigkeit(n):
 # Berechnung und Ausgabe der Maschinengenauigkeit
 genauigkeit = maschinengenaueigkeit(29)
 print("Die experimentell bestimmte Maschinengenauigkeit ε0 beträgt:", genauigkeit)
-

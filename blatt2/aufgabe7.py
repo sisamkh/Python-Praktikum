@@ -1,7 +1,7 @@
 # Gruppe 3
-# Eya Rouissi(1913192)
-# Sisam Khanal (2312802)
-# Vladimir Suschevici(1732301)
+# Sisam Khanal
+# Eya Rouissi
+# Vladimir Suschevici
 
 import numpy as np
 import math
@@ -13,13 +13,13 @@ def spectral_norm(A, max_iter: int = 1000000): # mit power iteration
     for _ in range(max_iter):
         # berechne Ab
         Ab = np.dot(A, b_k)
-        
+
         # brechne den Norm von Ab
         b_k1_norm = np.linalg.norm(Ab)
-        
+
         # normiere b_k1
         b_k1 = Ab / b_k1_norm
-        
+
         # pruefe fuer Konvergenz
         if np.linalg.norm(b_k1 - b_k) < 1e-16:
             break
@@ -32,7 +32,7 @@ def zeilensummennorm(A):
     for i in range(n):
         summen.append(A[i].sum())
     return max(summen)
-    
+
 def konditionszahl(A):
     snormA = spectral_norm(A)
     try:
@@ -68,7 +68,7 @@ def ist_symm(A):
     return True
 
 
-# da wir Aufgaben separat gemacht haben, hatte ich kein Algo für die 
+# da wir Aufgaben separat gemacht haben, hatte ich kein Algo für die
 # LR und Cholesky Zerlegung
 # A = np.array([[3,2],[-2,0]])
 # x = np.array([[1],[2]])

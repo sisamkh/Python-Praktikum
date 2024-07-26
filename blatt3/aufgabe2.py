@@ -1,3 +1,8 @@
+# Gruppe 3
+# Sisam Khanal
+# Eya Rouissi
+# Vladimir Suschevici
+
 import numpy as np
 
 def ausgleich_poly(x, y, k):

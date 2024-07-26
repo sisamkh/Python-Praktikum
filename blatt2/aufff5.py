@@ -1,7 +1,7 @@
 # Gruppe 3
-# Eya Rouissi(1913192)
-# Sisam Khanal (2312802)
-# Vladimir Suschevici(1732301)
+# Sisam Khanal
+# Eya Rouissi
+# Vladimir Suschevici
 
 import numpy as np
 
@@ -9,7 +9,7 @@ def my_lu(a):
     n = len(a)
     l = np.zeros((n, n))
     u = np.zeros((n, n))
-    
+
     for j in range(n):
         l[j][j] = 1
         for k in range(j, n):
@@ -38,7 +38,7 @@ def partial_pivot_lu(A):
 
     # Make a copy of A to use for factorization
     U = A.copy()
-    
+
     for i in range(n):
         # Partial pivoting
         pivot = np.argmax(abs(U[i:n, i])) + i
@@ -60,7 +60,7 @@ def partial_pivot_lu(A):
 
     # Set the diagonal elements of L to 1
     np.fill_diagonal(L, 1)
-    
+
     return L, U, P
 
 def full_pivot_lu(A):
