@@ -1,5 +1,5 @@
 
-# README: Programmierpraktikum zur Einführung in die Numerische Mathematik
+# Programmierpraktikum zur Einführung in die Numerische Mathematik
 
 ## Übersicht
 Dieses Repository enthält die im Rahmen des Kurses "Programmierpraktikum zur Einführung in die Numerische Mathematik" an der Universität Wuppertal erstellten Arbeiten. Das Hauptziel dieses Kurses war die Einführung in die numerische Mathematik durch praktische Programmierübungen.
