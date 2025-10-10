@@ -1,49 +1,59 @@
+# Programmierpraktikum: Einführung in die Numerische Mathematik
 
-# Programmierpraktikum zur Einführung in die Numerische Mathematik
+## Überblick
+Dieses Repository enthält meine Arbeiten aus dem Kurs **„Programmierpraktikum zur Einführung in die Numerische Mathematik“** an der Universität Wuppertal.  
+Im Kurs ging es darum, grundlegende numerische Verfahren praktisch mit **Python** umzusetzen und dadurch ein besseres Verständnis für deren Funktionsweise und Grenzen zu bekommen.
 
-## Übersicht
-Dieses Repository enthält die im Rahmen des Kurses "Programmierpraktikum zur Einführung in die Numerische Mathematik" an der Universität Wuppertal erstellten Arbeiten. Das Hauptziel dieses Kurses war die Einführung in die numerische Mathematik durch praktische Programmierübungen.
+## Zusammenarbeit
+Die Aufgaben wurden in kleinen Gruppen von drei Studierenden bearbeitet. So konnten wir gemeinsam Konzepte diskutieren, Ansätze vergleichen und uns gegenseitig beim Debugging unterstützen.
 
-## Mitarbeiter
-Dieses Projekt wurde in Zusammenarbeit mit meinen Kollegen von der Universität Wuppertal durchgeführt. Die Programmieraufgaben wurden in kleinen Gruppen von bis zu drei Studierenden bearbeitet.
+## Tools
+- **Sprache:** Python (`numpy`, `scipy`, `matplotlib`)  
+- **Plattform:** Moodle und Github  
+- **Kontakt:** Tatiana Kossaczká – [kossaczka@uni-wuppertal.de](mailto:kossaczka@uni-wuppertal.de)
 
-## Sprache und Werkzeuge
-- **Programmiersprache**: Python (numpy, scipy)
-- **Kursmanagement**: Moodle
-- **Kontakt für Anfragen**: Tatiana Kossaczká (kossaczka@uni-wuppertal.de)
+## Gelerntes & Inhalte
+Im Laufe des Praktikums habe ich verschiedene Themen der numerischen Mathematik praktisch umgesetzt und vertieft, darunter:
 
-## Erlernte Fähigkeiten
-Während dieses Praktikums habe ich folgende Fähigkeiten und Kenntnisse erworben:
+- **Lineare Algebra:**  
+  - Implementierung der **LR-Zerlegung** (LU-Zerlegung) zur Lösung linearer Gleichungssysteme  
+  - Untersuchung von **Konditionszahlen** und Stabilität numerischer Verfahren  
 
-- **Numerische Methoden**: Implementierung und Anwendung numerischer Verfahren wie der LR-Zerlegung, Interpolation, Integration und der Lösung linearer Gleichungssysteme.
-- **Python-Programmierung**: Vertiefung der Kenntnisse in Python, insbesondere in den Bibliotheken numpy und scipy für wissenschaftliches Rechnen.
-- **Algorithmisches Denken**: Entwicklung und Optimierung von Algorithmen zur effizienten Lösung mathematischer Probleme.
-- **Fehlerbehebung und Debugging**: Analyse und Behebung von Fehlern im Code, um korrekte und effiziente Lösungen zu gewährleisten.
-- **Teamarbeit**: Zusammenarbeit in kleinen Gruppen, um gemeinsam Lösungen zu erarbeiten und die Aufgaben erfolgreich zu bearbeiten.
-- **Projektmanagement**: Planung und Einhaltung von Fristen, um die Aufgaben innerhalb des vorgegebenen Zeitrahmens abzuschließen.
+- **Interpolation & Approximation:**  
+  - **Polynominterpolation** (z. B. Lagrange, Newton)  
+  - **Spline-Interpolation** für glattere Näherungen  
 
-## Kursstruktur
-- **Aufgaben**:
-  - Es wurden sechs Aufgabenblätter gestellt, von denen fünf erfolgreich bearbeitet werden mussten, um zu bestehen.
-  - Die Aufgaben wurden auf Moodle veröffentlicht und hatten in der Regel eine Bearbeitungszeit von zwei Wochen.
-- **Abgabe**:
-  - Lösungen wurden über Moodle eingereicht und bei technischen Schwierigkeiten per E-Mail als .zip-Archiv gesendet.
-- **Bewertung**:
-  - Es wurden die Korrektheit, Lesbarkeit und Qualität des Codes bewertet.
-  - Jede Aufgabe erforderte ein Hauptskript, das die Nutzung des geschriebenen Codes mit Beispielwerten demonstriert.
-  - Effizienz war weniger wichtig als Klarheit und Korrektheit.
+- **Numerische Integration:**  
+  - Umsetzung von **Trapezregel**, **Simpson-Regel** und **adaptiven Verfahren**  
+  - Vergleich von Genauigkeit und Rechenaufwand  
 
-## Code-Überprüfung
-Nach der Abgabe wurde eine Testsitzung vereinbart, um zu überprüfen, dass:
-- Der Code selbst geschrieben wurde.
-- Der Code von allen Gruppenmitgliedern verstanden wurde.
-- Alle Gruppenmitglieder an der Aufgabe beteiligt waren.
+- **Nullstellenbestimmung:**  
+  - **Bisektionsverfahren**, **Newton-Verfahren** und **Sekantenmethode**  
+  - Analyse von Konvergenzverhalten  
 
-## Hinweise zur Qualität
-- Ordentliche Kommentare und lesbarer Code wurden betont.
-- Die Verwendung von eingebauten Funktionen war erwünscht, außer wenn sie die gesamte Aufgabe lösen würden.
+- **Fehleranalyse & Stabilität:**  
+  - Rundungsfehler, Abbruchfehler und deren Einfluss auf Ergebnisse  
+  - Bedeutung der numerischen Präzision in Python  
 
-## Kontakt
-Bei weiteren Fragen oder Unklarheiten wenden Sie sich bitte per E-Mail an Tatiana Kossaczká.
+- **Programmiertechniken:**  
+  - Nutzung von `numpy`/`scipy` zur effizienten Vektorisierung  
+  - Strukturierter, gut kommentierter und nachvollziehbarer Code  
+  - Testen, Debuggen und Performance-Vergleiche  
 
-Vielen Dank für den Besuch dieses Repositories. Wir hoffen, dass Sie den Code und die Lösungen für Ihr Studium und Ihre Projekte in der numerischen Mathematik hilfreich finden.
+## Kursaufbau
+- **Aufgaben:** 6 Übungsblätter (jeweils ca. 2 Wochen Bearbeitungszeit), 5 mussten bestanden werden  
+- **Abgabe:** Über Moodle oder per Mail (.zip-Archiv)  
+- **Bewertung:** Nach Korrektheit, Lesbarkeit, Struktur und Dokumentation (nicht nur Laufzeit)
+
+## Code Review
+Nach jeder Abgabe fand eine kurze Testsitzung statt, um sicherzustellen, dass:
+- der Code eigenständig erstellt wurde,  
+- alle Gruppenmitglieder den Code verstehen,  
+- und jede*r aktiv an der Lösung beteiligt war.  
+
+## Hinweise
+Gut dokumentierter und klar strukturierter Code war ausdrücklich erwünscht. Eingebaute Funktionen durften genutzt werden, solange sie nicht die komplette Aufgabe automatisch lösten.
+
+---
+
+📧 **Kontakt:** [kossaczka@uni-wuppertal.de](mailto:kossaczka@uni-wuppertal.de)
